@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Dev Training</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#2ec4b50b] md:px-[140px] flex items-center">
+    <main
+      class="flex flex-col md:flex-row md:gap-[120px] items-center px-6 md:px-0 h-[100vh]"
+    >
+      <div class="flex flex-col">
+        <div class="mb-[45px] mt-4">
+          <img src="./Logo.svg" alt="logo" />
+        </div>
+        <h1 class="text-[40px] font-bold mb-[20px]">For Individuals</h1>
+        <p class="text-[#737373] text-[16px] font-[400] hidden md:block">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+        <p class="text-[#737373] text-[16px] font-[400] md:hidden mb-7">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+      </div>
+
+      <div class="bg-white p-5 shadow-lg">
+        <form>
+          <div class="flex gap-6 flex-col md:flex-row w-full">
+            <div class="flex flex-col">
+              <label class="text-[#011C34] text-[14px] font-[600]"
+                >First Name</label
+              >
+              <input
+                type="text"
+                placeholder="David"
+                class="py-[14px] px-[16px] mt-[10px] rounded-md border"
+              />
+            </div>
+
+            <div class="flex flex-col">
+              <label class="text-[#011C34] text-[14px] font-[600]"
+                >Last Name</label
+              >
+              <input
+                type="text"
+                placeholder="Igbokwe"
+                class="py-[14px] px-[16px] mt-[10px] rounded-md border"
+              />
+            </div>
+          </div>
+
+          <div class="flex gap-6 mt-[20px] flex-col md:flex-row w-full">
+            <div class="flex flex-col md:w-1/2">
+              <label class="text-[#011C34] text-[14px] font-[600]"
+                >Gender</label
+              >
+              <select
+                name=""
+                class="py-[14px] px-[16px] mt-[10px] rounded-md border text-[#737373]"
+              >
+                <option value="" disabled selected class="text-[#737373]">
+                  Select here
+                </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col md:w-1/2">
+              <label class="text-[#011C34] text-[14px] font-[600]"
+                >Date of Birth
+              </label>
+              <input
+                type="date"
+                placeholder=""
+                class="py-[12px] px-[16px] mt-[10px] rounded-md border text-transparent"
+                id="date-input"
+              />
+            </div>
+          </div>
+
+          <div class="flex gap-6 mt-[20px] flex-col md:flex-row w-full">
+            <div class="flex flex-col">
+              <label class="text-[#011C34] text-[14px] font-[600]"
+                >Weight (KG)</label
+              >
+              <input
+                type="text"
+                placeholder="Enter Weight"
+                class="py-[14px] px-[16px] mt-[10px] rounded-md border"
+              />
+            </div>
+
+            <div class="flex flex-col">
+              <label class="text-[#011C34] text-[14px] font-[600]"
+                >Height (CM)</label
+              >
+              <input
+                type="text"
+                placeholder="Enter height here.."
+                class="py-[14px] px-[16px] mt-[10px] rounded-md border"
+              />
+            </div>
+          </div>
+
+          <div class="flex flex-col mt-[20px]">
+            <label class="text-[#011C34] text-[14px] font-[600]"
+              >Activity Level</label
+            >
+            <select
+              name=""
+              id=""
+              class="py-[14px] px-[16px] mt-[10px] rounded-md border text-[#737373]"
+            >
+              <option value="" disabled selected class="text-[#737373]">
+                Select here
+              </option>
+              <option value="Active">Active</option>
+              <option value="Passive">Passive</option>
+            </select>
+          </div>
+
+          <div class="flex flex-col mt-[20px]">
+            <label
+              for=""
+              class="text-[#011C34] text-[14px] font-[600] mb-[10px]"
+              >Password</label
+            >
+            <div class="flex items-center border w-full rounded-md">
+              <input
+                type="password"
+                class="py-[10px] mt-[10px] w-full bg-transparent outline-none"
+              />
+              <button>
+                <img src="./show.svg" alt="view" />
+              </button>
+            </div>
+          </div>
+
+          <button
+            class="mt-[20px] w-full bg-[#2EC4B6] hover:bg-white hover:text-[#2EC4B6] border border-transparent hover:border-[#2EC4B6] text-white text-[16px] font-[600] py-4 rounded-md mb-4"
+            id="button"
+          >
+            Register
+          </button>
+
+          <p class="text-center text-[14px] font-[300]">
+            By clicking Register, you agree to our
+            <a href="#"
+              ><span class="text-[#2EC4B6] underline">Terms of Use</span></a
+            >
+            and our
+            <a href="#"
+              ><span class="text-[#2EC4B6] underline">Privacy Policy</span></a
+            >
+          </p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
